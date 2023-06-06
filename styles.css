@@ -213,6 +213,35 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-width: 480px) {
+  .header {
+    width: 90%;
+  }
+  .logo {
+    font-size: 1.5rem;
+    margin-right: -20px;
+  }
+  .header__input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .input__icon {
+    font-size: 1rem;
+  }
+  .input {
+    display: none;
+  }
+  .header__navbar {
+    font-size: 0.8rem;
+  }
+  .navbar__button {
+    width: 50px;
+    height: 20px;
+    font-size: 0.7rem;
+  }
+}
+
 .container {
   width: 80%;
   height: calc(90% - 50px);
@@ -318,6 +347,76 @@ body {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin-top: 0px;
+    height: 270px;
+  }
+
+  .product__image {
+    width: 50%;
+  }
+  .img2 {
+    width: 100px;
+  }
+  .img1 {
+    width: 80px;
+    top: 40px;
+    left: 70px;
+  }
+  .img-vertor {
+    width: 40px;
+    top: 2px;
+    left: 105px;
+    /* background-color: #000; */
+  }
+  .product__detail {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .detail__tag {
+    font-size: 1rem;
+  }
+  .detail__title {
+    font-size: 2rem !important;
+    line-height: 30px !important;
+  }
+  .detail__desc {
+    font-size: 1rem !important;
+    line-height: 20px !important;
+    /* background-color: #000; */
+  }
+  .product__more {
+    margin-top: 0px;
+  }
+  .button__next {
+    width: 45px;
+    height: 30px;
+    font-size: 0.5rem;
+  }
+  .button__watch {
+    width: 20px;
+  }
+  .button__watch > img {
+    width: 30px;
+    height: 30px;
+  }
+  .icon__watch {
+    width: 15px;
+    height: 15px;
+    top: 8px;
+    left: 23px;
+  }
+  .button__watch-text {
+    font-size: 0.6rem;
+  }
+}
+
 .destination {
   width: 100vw;
   height: 100vh;
@@ -351,6 +450,34 @@ body {
 .image__item {
   width: 270px;
   height: 414px;
+}
+
+@media screen and (max-width: 480px) {
+  .destination {
+    padding-top: 20px;
+    height: 980px;
+  }
+  .destination__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .des__title {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  .des__desc {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .image__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+  .image__item {
+    margin-top: 20px;
+    width: 180px;
+  }
 }
 
 .package {
@@ -396,7 +523,7 @@ body {
   height: 479px;
 }
 
-.item__title {
+.pack__title {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 30px;
@@ -429,6 +556,33 @@ body {
   color: #fff;
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .package {
+    padding-top: 0px;
+    height: 1600px;
+  }
+  .package__container {
+    width: 90%;
+  }
+  .pack__title {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  .pack__desc {
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  .pack__list {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .button__next {
+    width: 150px;
+    font-size: 1.5rem;
+  }
 }
 
 .detail {
@@ -477,6 +631,42 @@ body {
   line-height: 28px;
   margin-top: 16px;
   margin-bottom: 38px;
+}
+
+@media screen and (max-width: 480px) {
+  .detail {
+    padding-top: 50px;
+    height: 280px;
+  }
+  .detail__container {
+    width: 90%;
+  }
+  .detail__image {
+    width: 50%;
+  }
+
+  .detail__img1 {
+    width: 80px;
+    top: 30px;
+    left: 0px;
+  }
+  .detail__img2 {
+    width: 80px;
+    top: 0px;
+    left: 90px;
+  }
+  .detail__img3 {
+    width: 80px;
+    top: 80px;
+    left: 90px;
+  }
+
+  .detail__title {
+    font-size: 1.5rem !important;
+  }
+  .detail__desc {
+    margin-bottom: 20px;
+  }
 }
 
 .sub {
@@ -539,6 +729,41 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   border: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .sub {
+    height: 280px;
+  }
+  .sub__container {
+    width: 90%;
+  }
+  .sub__detail {
+    width: 50%;
+  }
+
+  .sub__title {
+    font-size: 2.5rem;
+    line-height: 30px;
+  }
+  .sub__desc {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  .sub__input {
+    width: 50%;
+  }
+  .input1 {
+    width: 150px;
+    height: 50px;
+  }
+  .button__start {
+    width: 80px;
+    height: 30px;
+    top: 60px;
+    left: 100px;
+    font-size: 1rem;
+  }
 }
 
 footer {
@@ -623,4 +848,34 @@ footer {
   font-size: 14px;
   line-height: 26px;
   color: #878e99;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    position: relative;
+    height: 900px;
+  }
+
+  .footer {
+    width: 90%;
+    height: 200px;
+    flex-direction: column;
+    padding-top: 20px;
+    border: 0;
+  }
+  .footer__logo {
+    width: 100%;
+  }
+  .footer__list {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .copyRight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+  }
 }
