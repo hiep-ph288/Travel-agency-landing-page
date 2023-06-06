@@ -202,6 +202,10 @@ body {
   color: #000;
 }
 
+.active > a {
+  color: var(--primary);
+}
+
 .navbar__button {
   width: 144px;
   height: 49px;
@@ -304,6 +308,18 @@ body {
   align-items: center;
 }
 
+.button__plan {
+  width: 180px;
+  height: 64px;
+  border-radius: 32px;
+  border: none;
+  color: #fff;
+  background-color: var(--primary);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+}
+
 .button__next {
   width: 180px;
   height: 64px;
@@ -394,6 +410,13 @@ body {
   .product__more {
     margin-top: 0px;
   }
+
+  .button__plan {
+    width: 45px;
+    height: 30px;
+    font-size: 0.5rem;
+  }
+
   .button__next {
     width: 45px;
     height: 30px;
